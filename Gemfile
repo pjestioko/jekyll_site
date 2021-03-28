@@ -2,6 +2,6 @@
 
 source "https://rubygems.org"
 
-# git_source(:github) {|jekyll| "https://github.com/#{jekyll}" }
+git_source(:github) {|jekyll_site| "https://github.com/#{jekyll_site}.git" }
 
 gem "jekyll"
